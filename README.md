@@ -1,3 +1,2 @@
 # Tecnosupri
- Site da Tecnosupri
-Alteração feita pelo terminal
+Este é um site de um projeto privado a loja Tecnosupri
