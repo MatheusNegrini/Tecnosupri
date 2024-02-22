@@ -1,0 +1,9 @@
+.corBord{border-color:#000 !important;}
+.corGer{background-color:#000 !important;}
+.corGerbt{background-color:#000 !important;}
+.corGerbt:hover{background-color:#1F1F1F !important;}
+.txtGer{color:#000 !important;}
+.clicado{background-color:#1F1F1F !important;}
+.txtGer2{color:#000 !important;}
+.corLink:hover{color:#D1237A !important;}
+.setaProd{background:url(/sistemas/produtos/_imagens/seta_prod.png) no-repeat 4px 2px;}
