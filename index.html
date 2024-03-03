@@ -1,86 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tecnosupri</title>
-    <link rel="shortcut icon" type="imagex/png" href="estilos/Imagem_Loja.ico">
+    <link
+      rel="shortcut icon"
+      type="imagex/png"
+      href="estilos/Imagem_Loja.ico"
+    />
     <style>
-        body{
-            /*background-image: url(estilos/Background.jpeg);*/
-            background-color:bisque;
-            background-position: center;
-            display:flex;
-            justify-content: center;
-        }
-        
-        #container{
-            width: 70%;
-            height: 800px;
-            justify-content: center;
+      body {
+        background-image: url(estilos/Background.jpeg);
+        background-position: center;
+        display: flex;
+        justify-content: center;
+      }
 
-            
-            border: 2px solid black;
+      #container {
+        width: 70%;
+        height: 800px;
+        justify-content: center;
+      }
 
-        }
-        
-        .cabecalho{
-            display:flex;
-            align-items: center;
-            width: 100%;
-            height: 5%;
-            background-color: white;
-            margin-bottom: 50px;
-            
+      .cabecalho {
+        display: flex;
+        width: 100%;
+        height: 5%;
+      }
 
-            border: 2px solid black;
-            border-radius:5px ;
-            margin: auto;
-            }
-            
-            .cabecalho p {
-                flex-direction:column;
-                display: flex;
-                margin: 5px;
-                
-            }
+      .cabecalho a {
+        align-items: end;
+        margin-left: auto;
+      }
 
-            .middle{
-                
-                width: 100%;
-                height: 10%;
-            }
-            .middle img{
-                background-color:aliceblue ;
-            }
-            .corpo{
-                flex-direction:column;
-                display: flex;
-                width: 100%;
-                height: 70%;
-                background-color: white;
-                
-            border: 2px solid black;
-            border-radius:5px ;
-            
-            }
+      .middle {
+        width: 100%;
+        height: 10%;
+      }
+
+      .corpo {
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        height: 70%;
+        background-color: white;
+
+        border: 2px solid black;
+        border-radius: 5px;
+      }
     </style>
-</head>
-    <body>
-        <div id="container">
-            <div class="cabecalho">
-                <p>Login</p>
-                <p>/</p>
-                <p>Cadastro</p>
-        
-            </div>
+  </head>
+  <body>
+    <div id="container">
+      <div class="cabecalho">
+        <a href="login.html">
+          <img
+            src="estilos/bitmap.png"
+            alt="Imagem de Login"
+            width="100%"
+            height="100%"
+          />
+        </a>
+      </div>
 
-            <div class="middle">
-                <img src="estilos/Imagem_Middle.png" alt="Imagem de fundo" width="30%" height="90%">
-            </div>
-            <div class="corpo">
-                <p>teste</p>
-            </div>
-        </div>
-    </body>
+      <div class="middle">
+        <a href="index.html">
+          <img
+            src="estilos/Imagem_Middle.png"
+            alt="Imagem de fundo"
+            width="30%"
+            height="90%"
+          />
+        </a>
+      </div>
+
+      <div class="corpo">
+        <p>teste</p>
+      </div>
+    </div>
+  </body>
 </html>
