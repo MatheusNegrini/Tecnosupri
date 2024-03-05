@@ -30,18 +30,19 @@
       }
 
       .cabecalho a {
-        align-items: end;
+        align-items: flex-end;
         margin-left: auto;
+        width:"4%";
+        height: auto;
       }
 
       .middle {
         width: 100%;
         height: 10%;
       }
-
       .corpo {
-        align-items: center;
         flex-direction: column;
+        display: flex;
         display: flex;
         width: 100%;
         height: 70%;
@@ -50,18 +51,29 @@
         border: 2px solid black;
         border-radius: 5px;
       }
+
+      .corpo img {
+        align-items: center;
+        margin: auto;
+        margin-bottom: 0%;
+      }
+
+      .corpo form {
+        align-items: center;
+        margin: auto;
+        margin-top: 0%;
+        margin-bottom: 30%;
+      }
     </style>
   </head>
   <body>
     <div id="container">
       <div class="cabecalho">
-        <a href="login.html">
-          <img
-            src="estilos/bitmap.png"
-            alt="Imagem de Login"
-            width="100%"
-            height="100%"
-          />
+        <a href=login.html>
+        <img
+          src="estilos/bitmap.png"
+          alt="Imagem de Login"
+        />
         </a>
       </div>
 
@@ -75,11 +87,9 @@
           />
         </a>
       </div>
-
       <div class="corpo">
-        <p>teste</p>
-
-        <p>Tese de algoritmo</p>
+        <p>Teste</p>
+        
       </div>
     </div>
   </body>
