@@ -39,8 +39,7 @@
         height: 10%;
       }
       .corpo {
-        flex-direction: column;
-        display: flex;
+        flex:auto;
         display: flex;
         width: 100%;
         height: 70%;
@@ -51,16 +50,19 @@
       }
 
       .corpo img {
-        align-items: center;
-        margin: auto;
-        margin-bottom: 0%;
+        position: absolute;
+  top: 335px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
       }
+      
 
       .corpo form {
         align-items: center;
         margin: auto;
-        margin-top: 0%;
-        margin-bottom: 30%;
+        
       }
     </style>
   </head>
@@ -70,8 +72,7 @@
         <img
           src="estilos/bitmap.png"
           alt="Imagem de Login"
-          width="4.30%"
-          height="100%"
+          width="50" height="50"
         />
       </div>
 
@@ -80,8 +81,7 @@
           <img
             src="estilos/Imagem_Middle.png"
             alt="Imagem de fundo"
-            width="30%"
-            height="90%"
+            width=´80´ height="80"
           />
         </a>
       </div>
@@ -89,10 +89,10 @@
         <img
           src="estilos/bitmap.png"
           alt="Imagem de Login"
-          width="20%"
-          height="30%"
+          width="50" height="50"
         />
         <form action="/submit_form" method="post">
+          <div class="spacer"></div>
           <fieldset>
             <legend>Login:</legend>
             <label for="email">E-mail:</label><br />
@@ -105,8 +105,8 @@
             value=""
             style="
               background-image: url(estilos/bt_registrar_login.png);
-              width: 40%;
-              height: 30%;
+              width: 100px;
+              height: 50px;
               background-size: cover;
               background-position: center;
               border: none;
@@ -119,8 +119,8 @@
             value=""
             style="
               background-image: url(estilos/bt_enviar_login.png);
-              width: 40%;
-              height: 30%;
+              width: 100px;
+              height: 50px;
               background-size: cover;
               background-position: center;
               border: none;
